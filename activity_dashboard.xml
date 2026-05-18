@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    android:background="@drawable/bg_dashboard">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MEDIMART DASHBOARD"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#B3E5FC"
+        android:layout_marginBottom="30dp"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"/>
+
+    <Button
+        android:id="@+id/btnAddMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="ADD MEDICINE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#2196F3"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnSellMedicine"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="SELL MEDICINE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4CAF50"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="ALL MEDICINES"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#9C27B0"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnRevenue"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="REVENUE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF9800"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnStockOut"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="STOCK OUT MEDICINES"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#F44336"
+        android:layout_marginBottom="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_sell">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SELL MEDICINE"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#B3E5FC"
+            android:layout_gravity="center"
+            android:layout_marginBottom="25dp"
+            android:shadowColor="#000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/searchBox"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Search Medicine Name"
+            android:textColorHint="#CCCCCC"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/field_bg"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="18sp"
+            android:completionThreshold="1" />
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Search Details"
+            android:backgroundTint="#2196F3"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <ImageView
+            android:id="@+id/searchImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="12dp"
+            android:scaleType="centerCrop"
+            android:background="#66000000"
+            android:padding="2dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/searchResultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:text="Details appear here"
+            android:textColor="#FFFFFF"
+            android:background="#99000000"
+            android:textSize="18sp"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/sellQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Quantity to Sell"
+            android:inputType="number"
+            android:textColorHint="#CCCCCC"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/field_bg"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnSell"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="SELL MEDICINE"
+            android:backgroundTint="#4CAF50"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
